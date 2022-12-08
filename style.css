@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.big-div {
+    width: 851px;
+    height: 708px;
+    position: relative;
+}
+
+.main-photo {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    background: url(./Reisinformatie-over-New-York\ 1.png);
+    background-size: cover;
+}
+
+.register-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 581px;
+    height: 708px;
+    left: 586px;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px;
+}
+
+.logo {
+    position: absolute;
+    width: 270px;
+    height: 202.5px;
+    left: 156px;
+    top: 0px;
+    background: url(./unnamed.svg);
+}
+
+.username,
+.password,
+.email {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    align-items: center;
+    color: #003D61;
+}
+
+#username,
+#password,
+#email {
+    width: 420px;
+    height: 35px;
+    border: none;
+    border-left: 2px solid #003D61;
+    border-bottom: 1px solid #003D61;
+}
+
+::placeholder {
+    color: lightgrey;
+}
+
+.terms-policy,
+.account {
+    width: 370px;
+    height: 20px;
+    font-weight: 600;
+    size: 16px;
+    color: #003D61;
+}
+
+.terms-policy {
+    position: absolute;
+    right: 93px;
+    bottom: 196px;
+}
+
+.account {
+    position: absolute;
+    left: 173px;
+    bottom: 151px;
+}
+
+a {
+    color: #ED2980;
+}
+
+.google,
+.apple,
+.telegram {
+    position: absolute;
+    height: 49px;
+    width: 49px;
+    bottom: 72px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.google {
+    left: 174px;
+    background-image: url(./google.png);
+}
+
+.apple {
+    right: 247px;
+    background-image: url(./apple.png);
+}
+
+.telegram {
+    right: 132px;
+    background-image: url(./telegram2.png);
+}
+
+
+/* .small-div {
+    width: 392px;
+    height: 892px;
+} */
+
+/* .small-photo {
+    width: 392px;
+    height: 375px;
+    top: -31px;
+    left: 10px;
+    background: url(./Reisinformatie-over-New-York\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-box {
+    width: 375px;
+    height: 517px;
+    left: 0;
+    top: 298px;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.25);
+} */
